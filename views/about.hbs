@@ -5,10 +5,11 @@
     <title>Some Website</title>
   </head>
   <body>
-    <h1>{{pageTitle}}</h1>
+    
+    {{> header}}
+
     <p>10 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    <footer>
-      <p>Copyright {{currentYear}}</p>
-    </footer>
+
+    {{> footer}}
   </body>
 </html>
